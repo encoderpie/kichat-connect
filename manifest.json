@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Kichat connect",
+  "version": "1.0",
+  "description": "Connect your kick.com account to kichat",
+  "permissions": ["activeTab", "scripting", "cookies", "storage"],
+  "host_permissions": [
+    "https://kick.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/kichat.png",
+      "48": "images/kichat.png",
+      "128": "images/kichat.png"
+    }
+  },
+  "icons": {
+    "16": "images/kichat.png",
+    "48": "images/kichat.png",
+    "128": "images/kichat.png"
+  }
+}
